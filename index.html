@@ -409,9 +409,9 @@
   <body class="dark-theme">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand text-accent d-flex align-items-center" href="#" style="gap: 10px">
-          <img src="Logo_Website.png" alt="Logo Geo-NgaWiKu" style="height: 24px; width: auto" />
-          <span style="line-height: 1; margin-top: 2px">Geo-NgaWiKu</span>
+        <a class="navbar-brand text-accent d-flex align-items-center" href="#">
+          <img src="Logo_Website.png" alt="Logo Geo-NgaWiKu" style="height: 35px; width: auto; margin-right: 0.2px" />
+          Geo-NgaWiKu
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -465,7 +465,7 @@
         <div class="row justify-content-center">
           <div class="col-md-8">
             <p class="lead dynamic-text">
-              <strong>Geo-NgaWiKu (Geospasial Ngawi Wisata Dan Kuliner)</strong> Ngawi menyimpan sejuta cerita—dari megahnya peninggalan sejarah Benteng Van Den Bosch, sejuknya embun di Kebun Teh Jamus, hingga nikmatnya seporsi Tepo Tahu
+              <strong>Geo-NgaWiKu (Geospasial Ngawi Wisata Dan Kuliner)</strong> Ngawi menyimpan sejuta cerita dari megahnya peninggalan sejarah Benteng Van Den Bosch, sejuknya embun di Kebun Teh Jamus, hingga nikmatnya seporsi Tepo Tahu
               legendaris. Geo-NgaWiKu (Geospasial Ngawi Wisata & Kuliner) hadir sebagai jendela digital yang merangkum semua kekayaan tersebut. Lebih dari sekadar direktori biasa, platform ini adalah peta interaktif cerdas yang siap memandu
               setiap langkah petualangan dan penjelajahan rasamu di bumi Ngawi Ramah.
             </p>
@@ -477,7 +477,7 @@
     <section id="peta-section" class="py-5">
       <div class="container">
         <div class="text-center mb-5">
-          <h2 class="text-accent fw-bold tracking-wide">PETA ADMINISTRATIF NGAWI</h2>
+          <h2 class="text-accent fw-bold tracking-wide">PETA INTERAKTIF NGAWI</h2>
           <p class="dynamic-text opacity-75">Data Geospasial Kabupaten Ngawi</p>
         </div>
         <div class="row g-4 justify-content-center">
@@ -595,7 +595,7 @@
     </section>
 
     <footer class="text-center py-4 bg-panel border-top" style="border-color: var(--border-color) !important">
-      <p class="mb-0 dynamic-text opacity-75">&copy; 2026 Xavier Hilmy Algasa. Hak Cipta Dilindungi. Teknologi Survei dan Pemetaan Dasar, Sekolah Vokasi Universitas Gadjah Mada.</p>
+      <p class="mb-0 dynamic-text opacity-75">© 2026 Xavier Hilmy Algasa. Hak Cipta Dilindungi. Teknologi Survei dan Pemetaan Dasar, Sekolah Vokasi Universitas Gadjah Mada.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -666,7 +666,7 @@
       }).fitBounds(initialBounds);
 
       var hash = new L.Hash(map);
-      map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com">Leaflet</a>');
+      map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> · <a href="https://leafletjs.com">Leaflet</a>');
       var autolinker = new Autolinker({ truncate: { length: 30, location: "smart" } });
 
       var zoomControl = L.control.zoom({ position: "topleft" }).addTo(map);
